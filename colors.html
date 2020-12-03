@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .div1{
+        height: 100px;
+        background-color: #cccccc;
+        /*background-image: url('images/1.jpg')*/
+        border: 5px solid #555555;
+        border-radius: 2px;
+        padding: 10px;
+        /*padding: 5px 10px;
+        padding: 5px 0px 3px 7px;*/
+        margin: 5px;
+        float:left;
+      }
+      body{
+        margin: 0px;
+      }
+      .w65{
+        width: 65%
+      }
+      .w20{
+        width:22%
+      }
+      .navbar{
+        height:50px;
+        background-color:#cccccc;
+      }
+      .div-slider{
+        background-color:#cccccc;
+        height:150px;
+        margin: 10px 0px;
+      }
+      .footer{
+        background-color:#cccccc;
+        height:50px;
+        margin: 10px 0px;
+        clear:left;
+      }
+      ul.nav{
+        margin:0px;
+        padding:0px;
+      }
+      ul.nav li{
+        list-style: none;
+        float:left;
+        border-right: 1px solid #b5b1b1;
+        min-width: 80px;
+      }
+      .nav .active{
+        background-color: #a0a0a0;
+      }
+      a{
+        text-decoration: none;
+      }
+      .nav li a{
+        color: #000000;
+        padding:0px 10px;
+        line-height:50px;
+        min-width: 80px;
+        text-align:center;
+        display:block;
+      }
+      .nav li a:hover{
+        color:#ffffff;
+        background-color: #a0a0a0;
+      }
+      .blinking{
+          animation:blinkingText 1.2s infinite;
+      }
+      @keyframes blinkingText{
+          0%{     color: #000;    }
+          49%{    color: #000; }
+          60%{    color: transparent; }
+          99%{    color:transparent;  }
+          100%{   color: #000;    }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar ">
+      <ul class="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="" class="active">Contact Us</a></li>
+        <li><a href="">About Us</a></li>
+      </ul>
+    </div>
+    <marquee direction = "right" scrolldelay="200"> Hello </marquee>
+    <div class="div-slider"> </div>
+    <div class="div1 w65">Hello </div>
+    <div class="div1 w20">Welcome </div>
+    <div class="footer blinking"> welcome </div>
+  </body>
+</html>

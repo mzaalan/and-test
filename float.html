@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Position</title>
+    <style>
+    .float-left{
+      float:left;
+    }
+    .bg1{
+      background-color: #cc9898;
+      margin: 1px;
+      width: 30%;
+    }
+    .bg2{
+      background-color: #eee;
+      margin: 1px;
+      width: 45%;
+    }
+    .bg3{
+      background-color: #888;
+      margin: 1px;
+      width: 30%;
+    }
+    .clearfix{
+      display: block;
+      clear: both;
+    }
+    .text-center{
+      text-align: center;
+    }
+    .row:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+      </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="float-left bg1 w30 text-center mg-t-30">
+        Of course, this page uses the Multi Column script. Try resizing your browser window and see what happens! And yes,
+        I still need to integrate this technique in the rest of the website :)
+
+      </div>
+      <div style="background:#eacece" class="float-left bg1 w30">
+        standards. Therefor most sites use a fixed (narrow) width, and/or
+         'simulate' columns in HTML. Both solutions are not dynamic:
+         on higher resolutions there's still quite a
+      </div>
+      <div style="background:#e07c7c" class="float-left bg1 w30">
+        standards. Therefor most sites use a fixed (narrow) width, and/or
+         'simulate' columns in HTML
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="float-left bg2 w30">
+        Of course, this page uses the Multi Column script. Try resizing your browser window and see what happens! And yes,
+        I still need to integrate this technique in the rest of the website :)
+
+      </div>
+      <div class="float-left bg2 w30">
+        standards. Therefor most sites use a fixed (narrow) width, and/or
+         'simulate' columns in HTML. Both solutions are not dynamic:
+         on higher resolutions there's still quite a
+      </div>
+    </div>
+    <div class="row">
+      <div class="float-left bg3 w30">
+        standards. Therefor most sites use a fixed (narrow) width, and/or
+         'simulate' columns in HTML
+      </div>
+    </div>
+
+  </body>
+</html>

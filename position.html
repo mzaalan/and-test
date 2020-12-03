@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Position</title>
+    <style>
+    .navbar{
+      height:50px;
+      background-color:#cccccc;
+      position:fixed;
+      top:0px;
+      left:0px;
+      width: 100%;
+      z-index: 9999;
+    }
+    body{
+      margin: 0px;
+    }
+    ul.nav{
+      margin: 0px;
+    }
+    ul.nav li{
+      list-style: none;
+      float:left;
+      border-right: solid 1px #eeeeee;
+    }
+    a{
+      text-decoration: none;
+    }
+    ul.nav li a{
+      color: #000000;
+      line-height: 50px;
+      padding: 0px 10px;
+      min-width: 60px;
+      display: block;
+      text-align: center;
+    }
+    ul.nav li a:hover{
+      color: #d82545;
+      background-color: #eeeeee;
+    }
+    ul.nav li a.active{
+      background-color: #eeeeee;
+    }
+    .p1{
+      position:relative;
+      left:50px;
+      margin-top: 60px;
+    }
+    .p2{
+      height: 100px;
+      border: 1px solid #0000ff;
+      position:relative;
+    }
+    .slider{
+      height: 100px;
+      position:relative;
+      background: url(images/1.jpg);
+    }
+    .spn{
+      position: absolute;
+      bottom: 10px;
+      left:10px;
+    }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <nav>
+        <ul class="nav">
+          <li><a href="">Home</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="" class="active">Team</a></li>
+          <li><a href="">Contact US</a></li>
+        </ul>
+      </nav>
+    </header>
+    <p class="p1">
+      standards. Therefor most sites use a fixed (narrow) width, and/or
+       'simulate' columns in HTML. Both solutions are not dynamic:
+       on higher resolutions there's still quite a loss of 'screen real estate'.
+    </p>
+    <p class="slider">
+
+      <span class="spn">Position</span>
+    </p>
+    <p class="p2">
+      Of course, this page uses the Multi Column script. Try resizing your browser window and see what happens! And yes,
+      I still need to integrate this technique in the rest of the website :)
+      <span class="spn">Position</span>
+    </p>
+    <p class="p2">
+      Of course, this page uses the Multi Column script. Try resizing your browser window and see what happens! And yes,
+      I still need to integrate this technique in the rest of the website :)
+      <span class="spn">Position</span>
+    </p>
+    <p class="p2">
+      Of course, this page uses the Multi Column script. Try resizing your browser window and see what happens! And yes,
+      I still need to integrate this technique in the rest of the website :)
+      <span class="spn">Position</span>
+    </p>
+
+  </body>
+</html>

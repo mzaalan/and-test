@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Form</title>
+
+  </head>
+  <body>
+      <form>
+          <!--
+          <label>Username</label>
+          <input type="text" name="username" value="mahmoud"/>
+          <label>Password</label>
+          <input type="password" required name="password"/>
+          <label>Grade</label>
+          <input type="number" style="width:150px" min="0" max="100" placeholder="min 0 , max 100" required name="mark"/>
+          <label>Email</label>
+          <input type="email" name="email" value="a@we.fsd" placeholder="Enter your email"/>
+          <label>File</label>
+          <input type="file" name="attachment" />
+          <br />
+          <br />
+          <br />
+        -->
+        <label> username </label>
+        <br/>
+        <input type="text" name="username" value="abc" disabled />
+        <br />
+        <label> first name </label>
+        <br/>
+        <input type="text" name="firstname" value="mahmoud" readonly />
+        <br />
+        Languages
+        <br />
+        <input id="lang1" value="ar" type="checkbox" name="language" />
+        <label for="lang1">Arabic</label>
+
+        <input id="lang2" value="en" type="checkbox" name="language" />
+        <label for="lang2">English</label>
+        <input id="frlang" type="checkbox" name="language" value="fr" />
+        <label for="frlang"> French </label>
+
+        <br />
+        Skills
+        <br />
+        <input id="skills1" checked="checked" type="checkbox" name="skills" value="java" />
+        <label for="skills1"> Java </label>
+        <br>
+        <input id="skills2" type="checkbox" name="skills" value="c" />
+        <label for="skills2"> C++ </label>
+        <br/>
+        <div>
+
+        </div>
+        <label> Gender </label>
+        <br />
+        <input type="radio" name="gender" value="m" id="male" />
+        <label for="male">Male </label>
+        <input checked type="radio" name="gender" value="f" id="female" />
+        <label for="female">Female </label>
+        <br />
+        <select name="country" multiple>
+          <option value="">Choose Country</option>
+          <option value="ps">Palestine</option>
+          <option value="eg">Egypt</option>
+        </select>
+        <br />
+        <br />
+        <br />
+
+
+        <br />
+          <button type="submit"> Send </button>
+          <button type="button">+Add</button>
+          <button type="reset">reset</button>
+      </form>
+  </body>
+
+</html>
